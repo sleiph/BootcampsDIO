@@ -42,6 +42,7 @@ public class Dev {
     }
 
     public Set<Conteudo> getConteudosInscritos() {
+        System.out.println("Conteúdos Inscritos de " + nome + ":");
         return conteudosInscritos;
     }
 
@@ -50,6 +51,7 @@ public class Dev {
     }
 
     public Set<Conteudo> getConteudosConcluidos() {
+        System.out.println("Conteúdos Concluídos de " + nome + ":");
         return conteudosConcluidos;
     }
 
